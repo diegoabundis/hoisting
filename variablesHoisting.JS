@@ -13,7 +13,8 @@
 
 (function (){
 	costoRefresco = 7;          // Inicializamos la variable costoRefresco
-	costoRefresco+= costoPapas; // Sumamos en la variable costoRefresco su valor mas el valor de la variables costoPapas sin inicialización. 
+	costoRefresco+= costoPapas; /* Sumamos en la variable costoRefresco su valor mas el valor de la variable 
+					costoPapas sin inicialización. */
 	total = costoRefresco;      // Asignamos a total el valor de la variable costoRefresco.
 	console.log("Total: "+total);
 	var costoRefresco, total,costoPapas=10; /* Declaramos nuestras variables como permite hoisting 
